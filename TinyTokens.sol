@@ -89,7 +89,7 @@ contract TinyTokens is ERC20, Ownable {
     	address indexed processor
     );
 
-    constructor()  ERC20("TTT", "TTT") {
+    constructor()  ERC20("TinyTokens", "TINY") {
 
     	dividendTrackerETH = new ETHTracker();
     	dividendTrackerBUSD = new BUSDTracker();
