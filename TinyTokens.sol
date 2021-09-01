@@ -43,7 +43,7 @@ contract TinyTokens is ERC20, Ownable {
     uint256 public marketingFee = 3;
     uint256 public totalFees = rewardsFee.add(liquidityFee).add(marketingFee);
 
-    //address public _marketingWalletAddress = ;
+    address public _marketingWalletAddress = 0x4e6C00e734b944482eBC5E715E020ea55f72ca10;
 
     
 
